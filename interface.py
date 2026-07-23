@@ -18,7 +18,7 @@ app_title.pack()
 input_name = tk.Entry(app,width=30)
 input_name.pack(pady=5)
 
-input_password = tk.Entry(app,width=30)
+input_password = tk.Entry(app,width=30,show="*")
 input_password.pack(pady=6)
 
 btn_login = tk.Button(app,text="login",fg="white",bg="blue",width=20,command=login)
